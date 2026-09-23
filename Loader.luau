@@ -1,3 +1,6 @@
+if getgenv().Executed then return end 
+getgenv().Executed = true
+
 local Games = {
     [3747388906] = "b31129b0248f749c6a5e257932620d9f" -- Fallen
 }
